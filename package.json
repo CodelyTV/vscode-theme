@@ -1,0 +1,21 @@
+{
+    "name": "dark-codely-community",
+    "displayName": "dark-codely-community",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "dark.codely-community",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark.codely-community-color-theme.json"
+            }
+        ]
+    }
+}
