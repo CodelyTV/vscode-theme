@@ -1,13 +1,20 @@
 {
     "name": "dark-codely-community",
-    "displayName": "dark-codely-community",
-    "description": "",
+    "displayName": "Codely Theme",
+    "description": "A modern, good-looking, productivity-increaser theme for Visual Studio Code",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.51.0"
     },
     "categories": [
         "Themes"
+    ],
+    "contributors": [
+        {
+            "email": "royjuni3431@gmail.com",
+            "name": "Royer Guerero",
+            "url": "https://github.com/royerguerrero"
+        }
     ],
     "contributes": {
         "themes": [
