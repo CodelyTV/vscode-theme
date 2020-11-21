@@ -461,6 +461,17 @@
 			}
 		},
 		{
+			"name": "HTML Puntuation",
+			"scope": [
+				"punctuation.definition.tag.end.html",
+				"punctuation.definition.tag.begin.html"
+			],
+			"settings": {
+				"foreground": "#8EC07C",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"name": "CSS Classes",
 			"scope": [
 				"entity.other.attribute-name.class"
