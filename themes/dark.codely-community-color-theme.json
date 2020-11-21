@@ -82,7 +82,17 @@
 		"terminal.ansiWhite": "#EBDBB2",
 		"terminal.ansiBrightBlue": "#95b7f7",
 		"terminal.ansiBrightGreen": "#B8BB26",
-		"editorCursor.foreground": "#81277e"
+		"editorCursor.foreground": "#81277e",
+		"menu.background": "#1E1E1E",
+		"menu.border": "#262626",
+		"window.activeBorder": "#262626",
+		"menu.selectionBorder": "#B8BB26",
+		"menubar.selectionBackground": "#262626",
+		"menubar.selectionBorder": "#1E1E1E",
+		"titleBar.inactiveBackground": "#1E1E1E",
+		"titleBar.activeBackground": "#1E1E1E",
+		"statusBar.noFolderBackground": "#1E1E1E",
+		"titleBar.border": "#262626"
 	},
 	"tokenColors": [
 		{
