@@ -1,5 +1,5 @@
 {
-	"name": "dark.codely-community",
+	"name": "dark.codely-theme",
 	"type": "dark",
 	"colors": {
 		"editor.background": "#1E1E1E",
@@ -92,7 +92,7 @@
 		"titleBar.inactiveBackground": "#1E1E1E",
 		"titleBar.activeBackground": "#1E1E1E",
 		"statusBar.noFolderBackground": "#1E1E1E",
-		"titleBar.border": "#262626"
+		"titleBar.border": "#262626",
 	},
 	"tokenColors": [
 		{

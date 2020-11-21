@@ -1,5 +1,5 @@
 {
-    "name": "dark-codely-community",
+    "name": "dark-codely-theme",
     "displayName": "Codely Theme",
     "description": "A modern, good-looking, productivity-increaser theme for Visual Studio Code",
     "version": "0.0.1",
@@ -19,9 +19,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "dark.codely-community",
+                "label": "dark.codely-theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/dark.codely-community-color-theme.json"
+                "path": "./themes/dark.codely-theme-color-theme.json"
             }
         ]
     }
