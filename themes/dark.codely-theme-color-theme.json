@@ -907,7 +907,60 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FF5370"
+				"foreground": "#FB5245"
+			}
+		},
+		{
+			"name": "JS Keywork Operator",
+			"scope": [
+				"source.js keyword.operator.expression.in.js",
+				"source.js keyword.operator.expression.of.js",
+				"source.js keyword.operator.new"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#FB5245"
+			}
+		},
+		{
+			"name": "JS Suport Class",
+			"scope": [
+				"source.js support.class",
+				"source.js entity.name.type.js"
+			],
+			"settings": {
+				"foreground": "#FAC149"
+			}
+		},
+		{
+			"name": "CSS Suport Function",
+			"scope": [
+				"source.css support.function",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#FB5245"
+			}
+		},
+		{
+			"name": "CSS Suport Constant And Units",
+			"scope": [
+				"source.css support.constant",
+				"source.css keyword.other.unit"
+			],
+			"settings": {
+				"foreground": "#B8BB26",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "CSS Fractions [fr]",
+			"scope": [
+				"source.css keyword.other.unit.fr.css",
+			],
+			"settings": {
+				"foreground": "#FB5245",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -926,7 +979,7 @@
 				"source.json meta.structure.dictionary.json"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#FAC149"
 			}
 		},
 		{
