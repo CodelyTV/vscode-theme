@@ -1013,7 +1013,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#EBDBB2"
 			}
 		},
 		{
@@ -1031,7 +1031,7 @@
 				"text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
 			],
 			"settings": {
-				"foreground": "#65737E"
+				"foreground": "#EBDBB2"
 			}
 		},
 		{
@@ -1039,10 +1039,12 @@
 			"scope": [
 				"markdown.heading",
 				"markup.heading | markup.heading entity.name",
-				"markup.heading.markdown punctuation.definition.heading.markdown"
+				"markup.heading.markdown punctuation.definition.heading.markdown",
+				"markup.heading.markdown entity.name"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#FB5245",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -1052,7 +1054,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#f07178"
+				"foreground": "#FB5245"
 			}
 		},
 		{
@@ -1063,7 +1065,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#f07178"
+				"foreground": "#FB5245"
 			}
 		},
 		{
@@ -1078,7 +1080,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#f07178"
+				"foreground": "#FB5245"
 			}
 		},
 		{
@@ -1088,7 +1090,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#F78C6C"
+				"foreground": "#B8BB26"
 			}
 		},
 		{
@@ -1115,7 +1117,7 @@
 				"string.other.link.title.markdown"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#FAC149"
 			}
 		},
 		{
@@ -1124,7 +1126,7 @@
 				"string.other.link.description.title.markdown"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#B8BB26"
 			}
 		},
 		{
@@ -1133,7 +1135,7 @@
 				"constant.other.reference.link.markdown"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#B8BB26"
 			}
 		},
 		{
@@ -1171,7 +1173,7 @@
 				"punctuation.section.class.end"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#EBDBB2"
 			}
 		},
 		{
