@@ -19,7 +19,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Codely Theme",
+                "label": "Codely Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dark.codely-theme-color-theme.json"
             }
