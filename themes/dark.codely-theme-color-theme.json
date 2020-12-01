@@ -225,29 +225,29 @@
 		"extensionBadge.remoteBackground": "#ebdbb2",
 		"extensionBadge.remoteForeground": "#1e1e1e",
 		"extensionButton.prominentBackground": "#327e36",
-		"extensionButton.prominentForeground": "#ffffff",
+		"extensionButton.prominentForeground": "#ebdbb2",
 		"extensionButton.prominentHoverBackground": "#28632b",
 		"focusBorder": "#262626",
-		"foreground": "#cccccc",
-		"gitDecoration.addedResourceForeground": "#294436",
-		"gitDecoration.conflictingResourceForeground": "#4a4abb",
-		"gitDecoration.deletedResourceForeground": "#45302B",
-		"gitDecoration.ignoredResourceForeground": "#656E76",
-		"gitDecoration.modifiedResourceForeground": "#43698D",
-		"gitDecoration.stageDeletedResourceForeground": "#45302B",
-		"gitDecoration.stageModifiedResourceForeground": "#e2c08d",
-		"gitDecoration.submoduleResourceForeground": "#43698D",
-		"gitDecoration.untrackedResourceForeground": "#294436",
+		"foreground": "#ebdbb2",
+		"gitDecoration.addedResourceForeground": "#629755",
+		"gitDecoration.conflictingResourceForeground": "#9876AA",
+		"gitDecoration.deletedResourceForeground": "#6C6C6C",
+		"gitDecoration.ignoredResourceForeground": "#7A725C",
+		"gitDecoration.modifiedResourceForeground": "#458588",
+		"gitDecoration.stageDeletedResourceForeground": "#6C6C6C",
+		"gitDecoration.stageModifiedResourceForeground": "#458588",
+		"gitDecoration.submoduleResourceForeground": "#458588",
+		"gitDecoration.untrackedResourceForeground": "#D1675A",
 		"icon.foreground": "#ebdbb2",
 		"imagePreview.border": "#80808059",
-		"inputOption.activeForeground": "#ffffff",
+		"inputOption.activeForeground": "#ebdbb2",
 		"inputValidation.errorBackground": "#5a1d1d",
 		"inputValidation.errorBorder": "#be1100",
 		"inputValidation.infoBackground": "#063b49",
 		"inputValidation.infoBorder": "#007acc",
 		"inputValidation.warningBackground": "#352a05",
 		"inputValidation.warningBorder": "#b89500",
-		"list.activeSelectionForeground": "#ffffff",
+		"list.activeSelectionForeground": "#ebdbb2",
 		"list.deemphasizedForeground": "#8c8c8c",
 		"list.dropBackground": "#062f4a",
 		"list.errorForeground": "#f88070",
@@ -263,7 +263,7 @@
 		"listFilterWidget.outline": "#00000000",
 		"menu.foreground": "#ebdbb2",
 		"menu.selectionBackground": "#262626",
-		"menu.selectionForeground": "#ffffff",
+		"menu.selectionForeground": "#ebdbb2",
 		"menu.separatorBackground": "#bbbbbb",
 		"menubar.selectionForeground": "#cccccc",
 		"merge.commonContentBackground": "#60606029",
@@ -331,7 +331,7 @@
 		"problemsWarningIcon.foreground": "#cca700",
 		"quickInputTitle.background": "#ffffff1b",
 		"scm.providerBorder": "#454545",
-		"scrollbar.shadow": "#000000",
+		"scrollbar.shadow": "#00000000",
 		"scrollbarSlider.activeBackground": "#bfbfbf66",
 		"scrollbarSlider.hoverBackground": "#646464b3",
 		"searchEditor.findMatchBackground": "#442b43a8",
@@ -696,10 +696,22 @@
 		{
 			"name": "Python Class Methods",
 			"scope": [
-				"source.python entity.name.function"
+				"source.python entity.name.function",
+				"support.function.magic.python"
 			],
 			"settings": {
 				"foreground": "#689D6A",
+			}
+		},
+		{
+			"name": "Python Logical Operator",
+			"scope": [
+				"source.python keyword.operator.logical.python",
+				"support.function.magic.python"
+			],
+			"settings": {
+				"foreground": "#FB5245",
+				"fontStyle": "italic"
 			}
 		},
 		{
