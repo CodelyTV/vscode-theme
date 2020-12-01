@@ -787,10 +787,23 @@
 		{
 			"name": "Attributes",
 			"scope": [
-				"entity.other.attribute-name"
+				"entity.other.attribute-name",
+				"entity.name.tag.structure.any.html",
+				"entity.name.tag"
 			],
 			"settings": {
-				"foreground": "#FB5245"
+				"foreground": "#FB5245",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "HTML DOCTYPE",
+			"scope": [
+				"meta.tag.sgml.doctype"
+			],
+			"settings": {
+				"foreground": "#8EC07C",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -799,8 +812,8 @@
 				"entity.name.tag.html",
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#FB5245"
+				"foreground": "#FB5245",
+				"fontStyle": "italic"
 			}
 		},
 		{
