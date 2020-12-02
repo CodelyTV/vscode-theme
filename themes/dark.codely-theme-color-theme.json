@@ -724,6 +724,44 @@
 			}
 		},
 		{
+			"name": "Python Data types",
+			"scope": [
+				"source.python support.type.python"
+			],
+			"settings": {
+				"foreground": "#FAC149",
+			}
+		},
+		{
+			"name": "Python Puntation arguments",
+			"scope": [
+				"source.python punctuation.definition.arguments.begin.python",
+				"source.python punctuation.definition.arguments.end.python"
+			],
+			"settings": {
+				"foreground": "#EBDBB2",
+			}
+		},
+		{
+			"name": "Python FString Puntation",
+			"scope": [
+				"source.python constant.character.format.placeholder.other.python",
+			],
+			"settings": {
+				"foreground": "#FAC149",
+			}
+		},
+		{
+			"name": "Python FString",
+			"scope": [
+				"source.python storage.type.string.python",
+			],
+			"settings": {
+				"foreground": "#B8BB26",
+				"fontStyle": ""
+			}
+		},
+		{
 			"name": "Pip dependences",
 			"scope": [
 				"source.pip-requirements",
