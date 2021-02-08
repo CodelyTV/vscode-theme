@@ -1260,6 +1260,27 @@
 			"settings": {
 				"foreground": "#EEFFFF"
 			}
+		},
+		{
+			"name": "SQL Keywords",
+			"scope": [
+				"keyword.other.sql",
+				"keyword.other.DML.sql",
+				"keyword.other.alias.sql"
+			],
+			"settings": {
+				"foreground": "#FB5245"
+			}
+		},
+		{
+			"name": "SQL Table and Database Name",
+			"scope": [
+				"constant.other.database-name.sql",
+				"constant.other.table-name.sql"
+			],
+			"settings": {
+				"foreground": "#8EC07C"
+			}
 		}
 	]
 }
