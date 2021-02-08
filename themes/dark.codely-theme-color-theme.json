@@ -507,7 +507,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#EBDBB2"
+				"foreground": "#8EC07C"
 			}
 		},
 		{
@@ -528,7 +528,9 @@
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
+				"support.function.magic.python",
+				"storage.type.js"
 			],
 			"settings": {
 				"foreground": "#FAC149"
@@ -608,14 +610,17 @@
 				"entity.name",
 				"support.type",
 				"support.class",
+				"entity.other.inherited-class",
 				"support.orther.namespace.use.php",
+				"variable.other.readwrite.alias",
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"support.type.sys-types",
+				"meta.export.default.js variable.other.readwrite.js"
 			],
 			"settings": {
-				"foreground": "#689D6A"
+				"foreground": "#8EC07C"
 			}
 		},
 		{
@@ -683,10 +688,13 @@
 			}
 		},
 		{
-			"name": "Python Self Parameter",
+			"name": "Self Parameters",
 			"scope": [
 				"variable.parameter.function.language.special.self.python",
-				"variable.language.special.self.python"
+				"variable.language.special.self.python",
+				"variable.language.this",
+				"variable.language.super",
+				"support.function.builtin.python"
 			],
 			"settings": {
 				"foreground": "#FB5245",
@@ -697,17 +705,15 @@
 			"name": "Python Class Methods",
 			"scope": [
 				"source.python entity.name.function",
-				"support.function.magic.python"
 			],
 			"settings": {
-				"foreground": "#689D6A",
+				"foreground": "#8EC07C",
 			}
 		},
 		{
 			"name": "Python Logical Operator",
 			"scope": [
 				"source.python keyword.operator.logical.python",
-				"support.function.magic.python"
 			],
 			"settings": {
 				"foreground": "#FB5245",
@@ -790,7 +796,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FAC149"
+				"foreground": "#FB5245"
 			}
 		},
 		{
