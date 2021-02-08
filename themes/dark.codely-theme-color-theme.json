@@ -647,10 +647,11 @@
 			}
 		},
 		{
-			"name": "CSS Selectors",
+			"name": "CSS Selectors and Values",
 			"scope": [
 				"meta.selector.css",
-				"support.constant"
+				"support.constant",
+				"meta.property-value.css"
 			],
 			"settings": {
 				"foreground": "#FB5245",
@@ -1015,7 +1016,8 @@
 			"name": "CSS Suport Constant And Units",
 			"scope": [
 				"source.css support.constant",
-				"source.css keyword.other.unit"
+				"source.css keyword.other.unit",
+				"source.css variable.parameter"
 			],
 			"settings": {
 				"foreground": "#B8BB26",
