@@ -507,7 +507,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#EBDBB2"
+				"foreground": "#8EC07C"
 			}
 		},
 		{
@@ -528,7 +528,9 @@
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
+				"support.function.magic.python",
+				"storage.type.js"
 			],
 			"settings": {
 				"foreground": "#FAC149"
@@ -608,14 +610,17 @@
 				"entity.name",
 				"support.type",
 				"support.class",
+				"entity.other.inherited-class",
 				"support.orther.namespace.use.php",
+				"variable.other.readwrite.alias",
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"support.type.sys-types",
+				"meta.export.default.js variable.other.readwrite.js"
 			],
 			"settings": {
-				"foreground": "#689D6A"
+				"foreground": "#8EC07C"
 			}
 		},
 		{
@@ -642,10 +647,11 @@
 			}
 		},
 		{
-			"name": "CSS Selectors",
+			"name": "CSS Selectors and Values",
 			"scope": [
 				"meta.selector.css",
-				"support.constant"
+				"support.constant",
+				"meta.property-value.css"
 			],
 			"settings": {
 				"foreground": "#FB5245",
@@ -683,10 +689,13 @@
 			}
 		},
 		{
-			"name": "Python Self Parameter",
+			"name": "Self Parameters",
 			"scope": [
 				"variable.parameter.function.language.special.self.python",
-				"variable.language.special.self.python"
+				"variable.language.special.self.python",
+				"variable.language.this",
+				"variable.language.super",
+				"support.function.builtin.python"
 			],
 			"settings": {
 				"foreground": "#FB5245",
@@ -697,17 +706,15 @@
 			"name": "Python Class Methods",
 			"scope": [
 				"source.python entity.name.function",
-				"support.function.magic.python"
 			],
 			"settings": {
-				"foreground": "#689D6A",
+				"foreground": "#8EC07C",
 			}
 		},
 		{
 			"name": "Python Logical Operator",
 			"scope": [
 				"source.python keyword.operator.logical.python",
-				"support.function.magic.python"
 			],
 			"settings": {
 				"foreground": "#FB5245",
@@ -721,6 +728,44 @@
 			],
 			"settings": {
 				"foreground": "#EBDBB2",
+			}
+		},
+		{
+			"name": "Python Data types",
+			"scope": [
+				"source.python support.type.python"
+			],
+			"settings": {
+				"foreground": "#FAC149",
+			}
+		},
+		{
+			"name": "Python Puntation arguments",
+			"scope": [
+				"source.python punctuation.definition.arguments.begin.python",
+				"source.python punctuation.definition.arguments.end.python"
+			],
+			"settings": {
+				"foreground": "#EBDBB2",
+			}
+		},
+		{
+			"name": "Python FString Puntation",
+			"scope": [
+				"source.python constant.character.format.placeholder.other.python",
+			],
+			"settings": {
+				"foreground": "#FAC149",
+			}
+		},
+		{
+			"name": "Python FString",
+			"scope": [
+				"source.python storage.type.string.python",
+			],
+			"settings": {
+				"foreground": "#B8BB26",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -752,7 +797,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FAC149"
+				"foreground": "#FB5245"
 			}
 		},
 		{
@@ -971,7 +1016,8 @@
 			"name": "CSS Suport Constant And Units",
 			"scope": [
 				"source.css support.constant",
-				"source.css keyword.other.unit"
+				"source.css keyword.other.unit",
+				"source.css variable.parameter"
 			],
 			"settings": {
 				"foreground": "#B8BB26",
@@ -1215,6 +1261,27 @@
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
+			}
+		},
+		{
+			"name": "SQL Keywords",
+			"scope": [
+				"keyword.other.sql",
+				"keyword.other.DML.sql",
+				"keyword.other.alias.sql"
+			],
+			"settings": {
+				"foreground": "#FB5245"
+			}
+		},
+		{
+			"name": "SQL Table and Database Name",
+			"scope": [
+				"constant.other.database-name.sql",
+				"constant.other.table-name.sql"
+			],
+			"settings": {
+				"foreground": "#8EC07C"
 			}
 		}
 	]
