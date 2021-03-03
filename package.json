@@ -3,6 +3,11 @@
     "displayName": "Codely Theme",
     "description": "A modern, good-looking, productivity-increaser theme for Visual Studio Code",
     "version": "0.0.1",
+    "scripts": {
+      "build": "vsce package"
+    },
+    "publisher": "Codely",
+    "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.51.0"
     },
@@ -24,5 +29,12 @@
                 "path": "./themes/dark.codely-theme-color-theme.json"
             }
         ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/CodelyTV/vscode-theme.git"
+    },
+    "devDependencies": {
+        "vsce": "^1.85.1"
     }
 }
