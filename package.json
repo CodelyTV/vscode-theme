@@ -1,10 +1,10 @@
 {
-    "name": "dark-codely-theme",
+    "name": "codely-theme",
     "displayName": "Codely Theme",
     "description": "A modern, good-looking, productivity-increaser theme for Visual Studio Code",
     "version": "0.0.1",
     "scripts": {
-      "build": "vsce package"
+        "build": "vsce package"
     },
     "publisher": "Codely",
     "icon": "images/icon.png",
@@ -14,6 +14,7 @@
     "categories": [
         "Themes"
     ],
+    "keywords": ["dark"],
     "contributors": [
         {
             "email": "royjuni3431@gmail.com",
@@ -31,8 +32,8 @@
         ]
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/CodelyTV/vscode-theme.git"
+        "type": "git",
+        "url": "https://github.com/CodelyTV/vscode-theme.git"
     },
     "devDependencies": {
         "vsce": "^1.85.1"
