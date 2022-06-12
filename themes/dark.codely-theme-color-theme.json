@@ -27,6 +27,7 @@
 		"editorGroupHeader.border": "#262626",
 		"editorGroupHeader.tabsBackground": "#1e1e1e",
 		"editorIndentGuide.background": "#262626",
+		"editorInlayHint.foreground": "#A89984",
 		"editorLineNumber.foreground": "#555049",
 		"editorSuggestWidget.background": "#1e1e1e",
 		"editorSuggestWidget.border": "#262626",
