@@ -1283,6 +1283,19 @@
 			"settings": {
 				"foreground": "#8EC07C"
 			}
+		},
+		{
+			"name": "Operators without italics",
+			"scope": [
+				"keyword.operator.assignment",
+				"keyword.operator.bitwise",
+				"keyword.operator.type",
+				"keyword.operator.logical",
+				"keyword.operator.arithmetic"
+			],
+			"settings": {
+				"fontStyle": ""
+			}
 		}
 	]
 }
