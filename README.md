@@ -7,7 +7,7 @@
 </p>
 <p align="center">
     <img src="images/preview-python.png" alt="Codely Theme preview" />
-    A modern, good-looking, productivity-increaser theme for Visual Studio and compatible IDEs<br><br>
+    A modern, good-looking, productivity-increaser theme for Visual Studio and compatible IDEs.<br><br>
     <a href="https://github.com/CodelyTV/vscode-theme/stargazers">Stars are welcome 😊</a>
 </p>
 
