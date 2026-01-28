@@ -1,41 +1,44 @@
 {
-    "name": "codely-theme",
-    "displayName": "Codely Theme",
-    "description": "A modern, good-looking, productivity-increaser theme for Visual Studio Code",
-    "version": "0.0.1",
-    "scripts": {
-        "build": "vsce package"
-    },
-    "publisher": "Codely",
-    "icon": "images/icon.png",
-    "engines": {
-        "vscode": "^1.51.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": ["dark"],
-    "contributors": [
-        {
-            "email": "royjuni3431@gmail.com",
-            "name": "Royer Guerero",
-            "url": "https://github.com/royerguerrero"
-        }
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Codely Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/dark.codely-theme-color-theme.json"
-            }
-        ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/CodelyTV/vscode-theme.git"
-    },
-    "devDependencies": {
-        "vsce": "^1.85.1"
+  "name": "codely-theme",
+  "displayName": "Codely Theme",
+  "description": "A modern, good-looking, productivity-increaser theme for Visual Studio and compatible IDEs.",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "vsce package"
+  },
+  "publisher": "Codely",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "codely"
+  ],
+  "contributors": [
+    {
+      "email": "royjuni3431@gmail.com",
+      "name": "Royer Guerero",
+      "url": "https://github.com/royerguerrero"
     }
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Codely Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.codely-theme-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodelyTV/vscode-theme.git"
+  },
+  "devDependencies": {
+    "vsce": "^1.108.2"
+  }
 }
